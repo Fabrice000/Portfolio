@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.hero-page{
+    width: 100% ;
+    height: 100vh;
+    display:flex ;
+    background-image: url(./images/a.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.hero-page .content{
+    padding: 10px 30px;
+    margin: auto;
+    background-color:rgb(88, 85, 85) ;
+    color:white ;
+    text-transform: uppercase ; /*pour mettre en grands caractères*/
+    letter-spacing: 5px;       /*pour mettre de l'espace entre les lettres*/
+    font-size: 15px;
+}
+.section-one ,
+.section-two ,
+.section-three{
+    padding: 80px 30px ;
+}
+.section-one h1,
+.section-two h1,
+.section-three h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.section-one p,
+.section-two p,
+.section-three p{
+    text-align: center;
+    font-size: 15px;
+}
+.section-two ,
+.section-three{
+    background-color: black;
+    color: white;
+}
+.image-two-text,
+.image-three-text{
+   padding: 120px 0;
+   width: 100%;
+   text-align: center;
+   font-size: 12px;
+   text-transform: uppercase;
+   letter-spacing: 5px; 
+   color: white; 
+}
+.image-two-text {
+    background-image: url(./images/b.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.image-three-text {
+    background-image: url(./images/c.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
+}

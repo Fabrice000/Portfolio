@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+        table{
+            border-collapse: collapse;
+            margin: 20px;
+        }
+        table td{
+            border: solid;
+        }
+        .CALC{
+            color: forestgreen;
+            background-color: black;
+            height: 50px;
+            width: 100px;
+        }
+        .SAUVER{
+            color: forestgreen;
+            background-color: black;
+            height: 50px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <DIV>
+        <label for="nom">Nom et prénom de l'élève</label>
+         <input type="text" name="nom" id="nom"> 
+         <label for="age">Âge</label>
+         <input type="number" name="age" id="age">
+         <label for="objectif">Objectif</label>
+         <textarea name="objectif" id="objectif" cols="20" rows="5"></textarea>
+    </DIV>
+    <table>
+        <tr>
+            <td>Matières</td>
+            <td>Coefficient</td>
+            <td>int1</td>
+            <td>int2</td>
+            <td>int3</td>
+            <td>int4</td>
+            <td>int5</td>
+            <td>int6</td>
+            <td>moyenne d'interrogation</td>
+            <td>dev1</td>
+            <td>dev2</td> 
+            <td>moyenne</td>
+            <td>rang</td>
+        </tr>
+        <tr>
+            <td>FRANCAIS</td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+        </tr>
+        <tr>
+            <td>ANGLAIS</td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+        </tr>
+        <tr>
+            <td>PHILOSOPHIE</td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+        </tr>
+        <tr>
+            <td>HISTOIRE</td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+        </tr>
+        <tr>
+            <td>PCT</td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+        </tr>
+        <tr>
+            <td>MATHEMATIQUES</td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+        </tr>
+        <tr>
+            <td>SVT</td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+        </tr>
+        <tr>
+            <td>SPORT</td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+        </tr>
+        <tr>
+            <td>CONDUITE</td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+        </tr>
+        <tr>
+            <td>TOTAL</td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+            <td><input type="number" name="numero" id="num"></td>
+        </tr>
+
+    </table>
+    <input class="CALC" type="button" value="CALCULER">
+    <input class="SAUVER" type="button" value="SAUVEGARDER">
+</body>
+</html>

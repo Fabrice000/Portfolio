@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A propos</title>
+  <script src="assets/code.jquery.com_jquery-3.7.0.min.js"></script>
+  <link rel="stylesheet" href="assets/bootstrap.min.css">
+  <script src="assets/bootstrap.bundle.min.js"></script>
+  <style>
+    /*
+ * Globals
+ */
+
+
+    /* Custom default button */
+    .btn-light,
+    .btn-light:hover,
+    .btn-light:focus {
+      color: #333;
+      text-shadow: none;
+      /* Prevent inheritance from `body` */
+    }
+
+
+    /*
+ * Base structure
+ */
+
+    body {
+      text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+      box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    }
+
+    .cover-container {
+      max-width: 42em;
+    }
+
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      width: 100%;
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .btn-bd-primary {
+      --bd-violet-bg: #712cf9;
+      --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+      --bs-btn-font-weight: 600;
+      --bs-btn-color: var(--bs-white);
+      --bs-btn-bg: var(--bd-violet-bg);
+      --bs-btn-border-color: var(--bd-violet-bg);
+      --bs-btn-hover-color: var(--bs-white);
+      --bs-btn-hover-bg: #6528e0;
+      --bs-btn-hover-border-color: #6528e0;
+      --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+      --bs-btn-active-color: var(--bs-btn-hover-color);
+      --bs-btn-active-bg: #5a23c8;
+      --bs-btn-active-border-color: #5a23c8;
+    }
+
+    .bd-mode-toggle {
+      z-index: 1500;
+    }
+
+    /* GLOBAL STYLES
+-------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      color: rgb(var(--bs-tertiary-color-rgb));
+    }
+
+
+    /* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 4rem;
+    }
+
+    /* Since positioning the image, we need to help out the caption */
+    .carousel-caption {
+      bottom: 3rem;
+      z-index: 10;
+    }
+
+    /* Declare heights because of positioning of img element */
+    .carousel-item {
+      height: 32rem;
+    }
+  </style>
+</head>
+
+<body class="text-center text-bg-dark">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Sixth navbar example" _mstaria-label="386061">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="assets/images/ma photo.jpg" width="30" height="30"
+          class="d-inline-block align-top rounded" alt="Hounkpe Carlos Fabrice"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample06"
+        aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation" _mstaria-label="320099">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample06">
+        <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="A propos.html">A propos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contactez-moi.html">Contactez-moi</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="Services.html" data-bs-toggle="dropdown"
+              aria-expanded="false">Services</a>
+            <ul class="dropdown-menu">
+              
+              <li><a class="dropdown-item" href="Services.html">Developpement web</a></li>
+              <li><a class="dropdown-item" href="Services.html">Gestion de projet</a></li>
+              <li><a class="dropdown-item" href="Services.html">Utilisation de logiciel</a></li>
+             </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Qui suis-je</a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item">
+                <div class="card " style="width: 18rem;">
+                  <img src="assets/images/MOI.jpg" class="card-img-top" alt="Moi">
+                  <div class="card-body">
+                    <h5 class="card-title"> Hounkpe Carlos Fabrice</h5>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">genre: Homme</li>
+                      <li class="list-group-item">Nationalité: Beninoise</li>
+                      <li class="list-group-item">Date de naissance: 20 Juillet 2004</li>
+                      <li class="list-group-item">Numéro: +229 94617493</li>
+                      <li class="list-group-item"> email: carlittohounkpe@gmail.com</li>
+                      <li class="list-group-item"> Addresse: Abomey-Calavi</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </li>
+      </div>
+    </div>
+  </nav>
+  <!--<header class="mb-auto">
+    <div>
+      <h3 class="float-md-start mb-0">Presentation</h3>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link fw-bold py-1 px-0 " aria-current="page" href="index.html">Home</a>
+        <a class="nav-link fw-bold py-1 px-0" href="Services.html">Services</a>
+        <a class="nav-link fw-bold py-1 px-0" href="Contactez-moi.html">Contactez-moi</a>
+        <a class="nav-link fw-bold py-1 px-0 active" href="A propos.html">A prpos</a>
+        
+      </nav>
+    </div>
+
+  </header>-->
+  <main class="px-3">
+    <div class="container">
+      <div class="row">
+        <div class="d-flex flex-column justify-content-end">
+          <h1 class="display-4 fst-italic">Me concernant</h1>
+          <p class="lead">Je m'appelle Hounkpe Carlos Fabrice, un designer graphique passionnée par la création visuelle
+            et l'expérience utilisateur. Avec plus de cinq ans d'expérience dans l'industrie, j'ai développé une solide
+            expertise dans la conception de supports de communication percutants et engageants.
+            J'ai obtenu mon diplôme en design web à l'institut de formation et de recherche en informatique (IFRI), où
+            j'ai acquis les bases solides de la conception visuelle et une sensibilité artistique. Au fil des années,
+            j'ai suivi une formation de l'utilisation de logiciels de conception graphique avancés.
+            Mon rôle consiste à concevoir des identités de marque, des interfaces utilisateur conviviales et des
+            supports de communication imprimés. J'ai eu l'occasion de participer à des projets de refonte de sites web,
+            en mettant l'accent sur l'optimisation de l'expérience utilisateur.
+            Au fil de ma carrière, j'ai développé une expertise approfondie dans l'utilisation d'outils de conception
+            tels que Adobe Photoshop et Illustrator. Mon objectif est de créer des designs esthétiques et fonctionnels
+            qui captivent l'attention et offrent une expérience utilisateur exceptionnelle. Je suis constamment à
+            l'affût des dernières tendances et je m'efforce de repousser les limites de la créativité dans chaque
+            projet.
+            Je suis ravi de vous présenter mes travaux et de discuter de la manière dont je peux contribuer à votre
+            prochain projet. N'hésitez pas à explorer mon portfolio pour voir quelques-unes de mes réalisations.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!--  
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+  <div class="col-lg-6 mx-3 flex-column">
+    <p class="lead my-3 partial-content">Je m'appelle Hounkpe Carlos Fabrice, un designer graphique passionnée par la création visuelle et l'expérience utilisateur.....</p>
+    <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3 text-body-emphasis fw-bold show-more">plus</button>
+    
+
+  </div>
+  </div>
+-->
+    <!--caroussel-->
+    <div id="myCarousel" class="carousel slide mb-6 pointer-event" data-bs-ride="carousel" data-bs-theme="light">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"
+          _mstaria-label="66157" aria-current="true"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+          _mstaria-label="66313" class=""></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+          _mstaria-label="66469" class=""></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"
+          _mstaria-label="66469" class=""></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+          </svg>
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <img src="assets/images/python.jpg" width="100%" height="100%" alt="python">
+              <h1>Projet python</h1>
+              <p class="opacity-75">Vous etes sur un projet et vous avez besoin de main d'oeuvre pour la programmation
+                en python je suis disponible pour repondre à vos attentes</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+          </svg>
+          <div class="container">
+            <div class="carousel-caption">
+              <img src="assets/images/django-datascientest.png" width="100%" height="100%" alt="python">
+              <h1>Projet Django</h1>
+              <p>Vous avez besoin de concevoir un site spécialement en django pour faire la différence je suis
+                disponible</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+          </svg>
+          <div class="container">
+            <div class="carousel-caption">
+              <img src="assets/images/cpp.png" width="50%" height="50%" alt="python">
+              <h1>Projet c/c++</h1>
+              <p>Vous voulez concevoir un système en langage c/c++ et vous avez besoin d'aide n'hésitez pas je suis à
+                votre disposition</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+          </svg>
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <img
+                src="assets/images/61665013-concept-de-développement-web-moderne-ligne-plate-mince-pour-le-site-web-de-la-bannière-web.jpg"
+                width="100%" height="100%" alt="python">
+              <h1>Projet web</h1>
+              <p>Vous ètes entrepreneur et vous voulez concevoir un blog pour conseiller les jeunes mais vous n'avez pas
+                le temps de le concevoir vous mème faite moi signe et je repondrez à vos attentes</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Précedent</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Suivant</span>
+      </button>
+    </div>
+    <article class="my-3" id="progress">
+      <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+        <h2>Mes skills</h2>
+      </div>
+      <div>
+        <div class="bd-example-snippet bd-code-snippet"><div class="bd-example m-0 border-0">
+          <h3>Python</h3>
+          <div class="progress mb-3" role="progressbar" aria-label="Info example with label" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar text-bg-success w-50">50%</div>
+          </div>
+        <h3>Langage c/c++</h3>
+        <div class="progress mb-3" role="progressbar" aria-label="Success example with label" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-success w-50">50%</div>
+        </div>
+        <h3>Langage html</h3>
+        <div class="progress mb-3" role="progressbar" aria-label="Info example with label" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar text-bg-success w-75">75%</div>
+        </div>
+        <h3>Langage css</h3>
+        <div class="progress mb-3" role="progressbar" aria-label="Success example with label" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-success w-50">50%</div>
+        </div>
+        <h3>Langage javascript</h3>
+        <div class="progress mb-3" role="progressbar" aria-label="Success example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar text-bg-success w-25">25%</div>
+        </div>
+        <h3>SQL</h3>
+        <div class="progress mb-3" role="progressbar" aria-label="Success example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-success w-25">25%</div>
+        </div>
+        <h3>Office Word</h3>
+        <div class="progress mb-3" role="progressbar" aria-label="Success example with label" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-success w-75">75%</div>
+        </div>
+        <h3>Office PowerPoint</h3>
+        <div class="progress mb-3" role="progressbar" aria-label="Success example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-success w-25">25%</div>
+        </div>
+        <h3>Office Excel</h3>
+        <div class="progress mb-3" role="progressbar" aria-label="Success example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-success w-25">25%</div>
+        </div>
+        <h3>Linux</h3>
+        <div class="progress mb-3" role="progressbar" aria-label="Success example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-success w-25">25%</div>
+        </div>
+        </div>
+      </div>
+      </div>
+
+      </div>
+    </article>
+  </main>
+  <div class="container bg-white">
+    <footer class="py-5 my-5">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="A propos.html" class="nav-link px-2 text-body-secondary">A propos</a></li>
+        <li class="nav-item"><a href="Contactez-moi.html" class="nav-link px-2 text-body-secondary">Contactez-moi</a>
+        </li>
+        <li class="nav-item"><a href="Services.html" class="nav-link px-2 text-body-secondary">Services</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2023 Company, Inc</p>
+    </footer>
+  </div>
+</body>
+
+</html>

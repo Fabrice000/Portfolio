@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de d'inscription</title>
+    <style>
+        html{
+            height: 100%;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Sans-Serif;
+            background:linear-gradient
+            (#141e30,#243b55);
+            
+        }
+        .login-box{
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            width: 400px;
+            padding: 40px;
+            transform: translate(-50%,-50%);
+            background: RGBa(0,0,0,.5);
+            box-sizing: border-box;
+            box-shadow: 0 15px 25px RGBa(0,0,0,.6);
+            border-radius: 10px;
+            
+        }
+        .login-box h1{
+            margin: 0 0 30px;
+            padding: 0;
+            color: #fff;
+            text-align: center;
+            
+        }
+        .login-box .user-box{
+            position: relative;
+        }
+        .login-box .user-box input{
+            width: 100%;
+            padding: 10px 0;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #fff;
+            outline: none;
+            background: transparent ;
+           
+        }
+        .login-box .user-box label{
+            top: 0;
+            left: 0;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            pointer-events: none;
+            transition: .5s;
+        }
+        .login-box .user-box input:focus~label,
+        .login-box .user-box input:valid~label{
+            top: -20px;
+            left: 0;
+            color: #03e9f4;
+            font-size: 12px;
+        }
+        .login-box form a{
+            position: relative;
+            display: inline-block;
+            padding: 10px 20px;
+            color: #03e9f4;
+            font-size: 16px;
+            text-decoration: none;
+            text-transform: uppercase;
+            overflow: hidden;
+            transition: .5s;
+            margin-top: 40px;
+            letter-spacing: 4px;
+        }
+        .login-box a:hover{
+            background: #03e9f4;
+            color: #fff;
+            border-radius: 5px;
+            box-shadow:0 0 5px #03e9f4;
+                       
+        }
+        .login-box a span{
+            position: absolute;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class= "login-box">
+    <h1>Inscription</h1>
+        <form action="page de connexion.php" method="POST">
+            <div class="user-box">
+                <label>NOM</label>
+                <input type="text" name="nom" id="name">
+             </div>
+             <div class="user-box">
+                 <label>PRENOM</label>
+                 <input type="text" name="prenom" id="surname">
+            </div>
+            <div class="user-box">
+                <label>Telephone</label>
+                <input type="tel" name="telephone" id="phone">
+            </div>
+            <div class="user-box">
+                   <label>Adresse Mail</label>
+                   <input type="email" name="email" id="">
+            </div>
+            <div class="user-box">
+                   <label>Mots de passe</label>
+                   <input type="password" name="mdp" > 
+            </div>
+            <div class="user-box">
+                <label>Age</label>
+                <input type="date" name="Age" id="age">
+            </div>
+            <div class="user-box">
+                <label>Classe</label>
+                <input type="text" name="Classe" id="classe">
+             </div>
+            <span>
+                <a href="Accueil.html"><input type="button" value="Connecter"></a> 
+            </span>
+        </form>
+    </div>
+</body>
+</html>
